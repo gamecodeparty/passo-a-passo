@@ -1,0 +1,9 @@
+[rascunho]
+
+Para a criação deste jogo vamos precisar de três elementos: Uma API para desenharmos diretamente os elementos do jogo, uma API para tocar os sons do jogo e um looping principal de onde iremos controlar todo o jogo.
+
+Este jogo será criado de uma forma super simples para ser reproduzido no Windows, Linux e Mac. A linguagem de programação escolhida será Java, mais fácil de configurar nestes ambientes diferentes. A API de desenho será a implementação padrão de OpenGL para Java e a API de som será a OpenAL.
+
+Para gerenciar as dependências do projeto Java vamos usar Maven2. O arquivo pom.xml encontrado na raiz do projeto contém todas as configurações de dependências necessárias para compilação e execução do fonte. As IDEs Netbeans, IntelliJ, Eclipse e várias reconhecem e abrem o projeto do maven diretamente. A codificação escolhida para o projeto é UTF-8. A IDE provavelmente reconhecer este formato automaticamente mas mesmo assim confira.
+
+
